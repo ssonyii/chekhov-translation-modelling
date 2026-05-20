@@ -69,6 +69,13 @@ translation-as-modelling/
 ├── README.md                        # this file
 ├── translation_as_modelling.ipynb   # main analysis notebook
 │
+├──  figures/
+│   ├── ttr.png         # figure for TTR
+│   ├── sentiment.png   # figure for Sentiment Trajectory
+│   ├── key_motif.png   # figure for Key Motif Frequencies
+│   └──POS.png          # figure for POS Density
+│
+│
 └──  data/
    ├── garnett_lady_with_the_dog.txt       # full text of Garnett's translation
    ├── koteliansky_lady_with_toy_dog.txt   # full text of Koteliansky and Cannon's translation
@@ -86,5 +93,5 @@ To reproduce my workflow you can find the instructions below:
 
 1. Clone this repository.
 2. Open the folder in Google Colab or any other IDE.
-3. Install the dependencies: `pip install nltk matplotlib pandas`
+3. Install the dependencies: `pip install nltk matplotlib pandas kaleido`
 4. Run all cells from top to bottom. The notebook will automatically fetch the texts. No local files needed.
